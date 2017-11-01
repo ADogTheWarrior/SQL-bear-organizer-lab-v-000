@@ -18,11 +18,11 @@ def select_youngest_bear_and_returns_name_and_age
   "SELECT name, age FROM bears ORDER BY age LIMIT 1"
 end
 
-def selects_most_prominent_color_and_returns_with_count
+def selects_most_prominent_color_and_returns_with_count #####
   "SELECT color FROM bears WHERE color = \"dark brown\""
 end
 
-def counts_number_of_bears_with_goofy_temperaments
+def counts_number_of_bears_with_goofy_temperaments #######
   "SELECT name FROM bears WHERE temperament = \"goofy\""
 end
 
